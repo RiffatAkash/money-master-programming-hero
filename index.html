@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONEY HEIST</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- style css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header start  -->
+    <header></header>
+    <main>
+        <!-- section start -->
+        <section class="container">
+            <h2 class="my-5 text-center text-primary">MONEY HEIST</h2>
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <img src="images/raining-money.jpg" class="img-fluid rounded" alt="...">
+                </div>
+                <div class="col-lg-6">
+                    <div class="container bg-light">
+                        <form>
+                            <h6 class="pt-3 text-center">Income</h6>
+                            <div class="mb-3 row g-3 align-items-center ms-5">
+                                <div class="col-auto">
+                                    <label for="inputPassword6" class="col-form-label">Income:</label>
+                                </div>
+                                <div class="col-auto">
+                                    <input id="income-id" type="text" id="inputPassword6" class="form-control">
+                                </div>
+                            </div>
+                            <h6 class="text-center">Expenses</h6>
+                            <div class="mb-3 row g-3 align-items-center ms-5">
+                                <div class="col-auto">
+                                    <label for="inputPassword7" class="col-form-label">Food:</label>
+                                </div>
+                                <div class="col-auto">
+                                    <input id="food-id" type="text" id="inputPassword7" class="form-control">
+                                </div>
+                            </div>
+                            <div class="mb-3 row g-3 align-items-center ms-5">
+                                <div class="col-auto">
+                                    <label for="inputPassword8" class="col-form-label">Rent:</label>
+                                </div>
+                                <div class="col-auto">
+                                    <input id="rent-id" type="text" id="inputPassword8" class="form-control">
+                                </div>
+                            </div>
+                            <div class="mb-3 row g-3 align-items-center ms-5">
+                                <div class="col-auto">
+                                    <label for="inputPassword9" class="col-form-label">Clothes:</label>
+                                </div>
+                                <div class="col-auto">
+                                    <input id="cloths-id" type="text" id="inputPassword9" class="form-control">
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2 col-3 mx-auto mb-3">
+                                <button id="calculate-id" class="btn btn-primary" type="button">Calculate</button>
+                            </div>
+                            <h6 class="text-center mb-3">Total Expenses: <span id="total-expense-id">00</span></h6>
+                            <h6 class="text-center mb-3">Balance: <span id="total-balance-id">00</span></h6>
+                            <div class="mb-3 row g-3 align-items-center ms-5">
+                                <div class="col-auto">
+                                    <label for="inputPassword10" class="col-form-label">Save</label>
+                                </div>
+                                <div class="col-3">
+                                    <input id="saving-id" type="text" id="inputPassword10" class="form-control">
+                                </div>
+                                <div class="col-1">
+                                    <label for="inputPassword11" class="col-form-label">%</label>
+                                </div>
+                                <div class="d-grid gap-2 col-3">
+                                    <button id="saving-btn" class="btn btn-primary" type="button">Save</button>
+                                </div>
+                            </div>
+                            <h6 class="text-center mb-3">Saving Amount: <span id="saving-amount-id">00</span></h6>
+                            <h6 class="text-center  mb-3">Remainig Balance:<span id="balance-total">00</span> </h6>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- scrit link -->
+    <script src="js/money.js"></script>
+    <!-- bootstrap script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
