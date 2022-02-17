@@ -1,4 +1,4 @@
-
+// get saving amount
 function getCurrentBalance() {
     const balanceTotal = document.getElementById('saving-amount-id');
     const balanceTotalText = balanceTotal.innerText;
@@ -6,6 +6,7 @@ function getCurrentBalance() {
     return previousBalanceTotal;
 }
 
+// get total balance 
 function getTotalBalance() {
     const balanceTotal = document.getElementById('total-balance-id');
     const balanceTotalText = balanceTotal.innerText;
